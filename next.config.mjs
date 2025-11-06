@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/Sitio-Web-Portfolio',
+  assetPrefix: '/Sitio-Web-Portfolio',
   eslint: {
     ignoreDuringBuilds: true,
   },
