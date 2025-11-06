@@ -67,7 +67,7 @@ export function ServerHeroSection() {
       <div className="flex items-start justify-center lg:justify-end pt-1">
         <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden border-4 border-border">
           <Image
-            src="/images/profile.png"
+            src="/Sitio-Web-Portfolio/images/profile.png"
             alt={resumeData.personalInfo.name}
             fill
             className="object-cover object-center"

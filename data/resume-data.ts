@@ -67,7 +67,7 @@ const resumeData: ResumeData = {
     linkedin: "https://www.linkedin.com/in/cristian-castillo-molina-547bb79b/",
     github: "https://github.com/CristianCastilloDeveloper",
     website: "",
-    photo: "/images/profile.png",
+    photo: "/Sitio-Web-Portfolio/images/profile.png",
     yearsOfExperience: "7+ años de experiencia en desarrollo de software",
     teamLeadExperience: "Experiencia liderando proyectos como Software Developer .NET Senior",
     birthDate: "15 de noviembre de 1992",

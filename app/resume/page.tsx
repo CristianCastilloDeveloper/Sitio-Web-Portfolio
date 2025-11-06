@@ -115,7 +115,7 @@ export default function ResumePage() {
             <div className="sticky top-20">
               <div className="rounded-lg overflow-hidden mb-6">
                 <Image
-                  src={resumeData.personalInfo.photo || "/images/profile.png"}
+                  src={resumeData.personalInfo.photo || "/Sitio-Web-Portfolio/images/profile.png"}
                   alt={resumeData.personalInfo.name}
                   width={300}
                   height={400}
