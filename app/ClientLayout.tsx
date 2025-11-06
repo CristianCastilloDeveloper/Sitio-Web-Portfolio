@@ -7,6 +7,7 @@ import "./globals.css"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { ToastProvider } from "@/components/toast-provider"
+import { GoogleAnalytics } from "@/components/google-analytics"
 import { Suspense } from "react"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -19,6 +20,7 @@ export default function ClientLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${inter.className} bg-[#1a1d23] text-white antialiased min-h-screen`}>
+        <GoogleAnalytics />
         <div className="flex min-h-screen flex-col">
           <Header />
           <Suspense>
